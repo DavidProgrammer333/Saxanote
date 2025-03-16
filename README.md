@@ -1,32 +1,32 @@
-Приложение для обработки звука саксофона и определения нот
+Application for processing saxophone sound and identifying notes
 
-Карапетян Давид
+Karapetyan David
 
-Проект представляет собой приложение для анализа звука саксофона и определения нот, сыгранных в аудиофайле или в реальном времени. Это приложение помогает музыкантам и композиторам.
+The project is an application for analyzing saxophone sound and identifying notes played in an audio file or in real time. This application helps musicians and composers.
 
-Содержание
+Contents
 
-Этот проект является прототипом приложения, которое анализирует звук саксофона, определяет ноты и отображает их в виде нотного листа. В будущем планируется улучшение алгоритмов с использованием технологий машинного обучения и добавление поддержки других музыкальных инструментов.
+This project is a prototype of an application that analyzes saxophone sound, identifies notes and displays them as a sheet music. In the future, it is planned to improve the algorithms using machine learning technologies and add support for other musical instruments.
 
-Функционал
+Functionality
 
-Загрузка аудиофайлов в формате *wav, *mp3.
-Запись звука с нажатием на кнопку "Record".
-Анализ нот и их длительности.
-Отображение результатов анализа.
-Экспорт результатов в текстовом формате.
-Технологии
+Loading audio files in *wav, *mp3 format.
+Recording sound by pressing the "Record" button.
+Analysis of notes and their duration.
+Displaying analysis results.
+Exporting results in text format.
+Technologies
 
-Для реализации приложения использованы следующие технологии:
+The following technologies were used to implement the application:
 
-PyQt6 — для создания графического интерфейса.
-Sounddevice — для записи звука в реальном времени.
-Librosa — для обработки и анализа аудиофайлов.
-SQLite3 — для хранения истории анализов.
-Инструкция по установке
+PyQt6 — to create a graphical interface.
+Sounddevice — to record sound in real time.
+Librosa — to process and analyze audio files.
+SQLite3 — for storing analysis history.
+Installation instructions
 
-Требования
-Python 3.8 или выше
+Requirements
+Python 3.8 or higher
 PyQt6
 Librosa
 Sounddevice
